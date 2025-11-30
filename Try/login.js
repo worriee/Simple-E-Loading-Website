@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // this is just a sample.
         if (username === 'admin' && password === 'admin') {
             sessionStorage.setItem('isAdmin', 'true');
-            window.location.href = '/index.html';
+            window.location.href = './index.html';
         } else {
             errorMessage.textContent = 'Invalid username or password';
         }
