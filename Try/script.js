@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
         userStatus.textContent = 'User Panel';
         authButton.textContent = 'Admin Login';
         authButton.addEventListener('click', () => {
-            window.location.href = '/Try/login.html';
+            window.location.href = './Try/login.html';
         });
     }
 
